@@ -1,0 +1,45 @@
+# Visual Studio Code
+.vscode/
+
+# Visual Studio IntelliSense
+.vs/
+
+# ReSharper
+_ReSharper*/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio 2015/2017 cache directory
+.vs2015/
+.vs2017/
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Unity generated files
+Temp/
+UnityGenerated/

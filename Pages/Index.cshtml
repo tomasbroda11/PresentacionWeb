@@ -1,0 +1,55 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Tomás Broda";
+}
+<link rel="stylesheet" href="~/css/site.css">
+
+<div class="div-ppal">
+	<h2>{ Backend developer }</h2>
+	<p>¡Bienvenidos! @Html.Raw("👋") Gracias por estar aqui.<br />Echa un vistazo.</p>
+	<button>Vamos</button>
+</div>
+<a href="#" class="link-normal">Vamos &darr;</a>
+<div class="descripcion">
+	<p>
+		Me presento con ustedes, mi nombre es Tomás Broda, soy un estudiante de ingenieria en sistemas de informacion.
+		Estoy ansioso por embarcarme y desarrollar mi carrera como desarrollador backend, buscando un rol desafiante para aprovechar mi experiencia en ingeniería, tecnología de la información y gestión de proyectos.
+		Me apasiona la tecnología y la innovación, siempre buscando oportunidades para aplicar soluciones creativas a desafíos del mundo real.
+		Con un ojo agudo para el detalle y una mentalidad colaborativa, prospero en entornos dinámicos y estoy comprometido a entregar resultados de alta calidad. Me considero una persona organizada con un fuerte sentido de responsabilidad, una disposición para aprender y excelentes habilidades de comunicación.
+	</p>
+</div>
+<div>
+	<h2>Mis skills</h2>
+	<ul>
+		<li>Python</li>
+		<li>C# (.NET, .NET Core, .NET Framework)</li>
+		<li>SQL Databases</li>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>Postman</li>
+		<li>GIT</li>
+	</ul>
+</div>
+<div class="formulario">
+	<h2>Pongamosnos en contacto</h2>
+	<br />
+	<form>
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre" required>
+		
+		<label for="apellido">Apellido:</label>
+		<input type="text" id="apellido" name="apellido" required>
+		<br />
+		<label for="empresa">Empresa/Rubro:</label>
+		<input type="text" id="empresa" name="empresa" required>
+		<br />
+		<label for="mensaje">Mensaje opcional:</label>
+		<textarea id="mensaje" name="mensaje"></textarea>
+		<br />
+		<label for="correo">Correo Electrónico:</label>
+		<input type="email" id="correo" name="correo" required>
+		<br />
+		<button type="submit">Enviar</button>
+	</form>
+</div>

@@ -1,0 +1,81 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.div-ppal {
+    /*background-color: #808080; */
+    background-image: url(../fotoDiv.png) ;
+    background-size: cover; 
+    background-position: center;
+    padding: 150px 100px 150px 100px;
+    border-radius: 25px;
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+}
+.div-ppal h2 {
+        color: darkorange;
+        font-size: 47px;
+        font-family: Dubai;
+}
+.div-ppal p{
+    color: black;
+    
+}
+
+.div-ppal button {
+    background-color: darkorange;
+    color: white;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 1px 20px;
+    margin-right: auto;
+}
+
+.div-ppal button:hover {
+    color: black;
+}
+
+.descripcion p{
+    font-size: 21px;
+    font-family: Rockwell ;
+}
+
+.link-normal {
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    color: inherit; /* Hereda el color del texto del elemento padre */
+    cursor: pointer; /* Cambia el cursor a su estilo predeterminado */
+}
+    .link-normal:hover {
+        color: darkorange;
+    }
+
+.formulario {
+    padding: 150px 100px 150px 100px;
+    border-radius: 25px;
+    font-size: 20px;
+    display: flex;
+    background-color: #808080;
+}
+ 
