@@ -8,9 +8,17 @@
 <div class="div-ppal">
 	<h2>{ Backend developer }</h2>
 	<p>¡Bienvenidos! @Html.Raw("👋") Gracias por estar aqui.<br />Echa un vistazo.</p>
-	<button>Vamos</button>
 </div>
-<a href="#" class="link-normal">Vamos &darr;</a>
+<div class="link-normal-div">
+	<a href="#" class="link-normal" id="scroll-link">Vamos &darr;</a>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br id="target-paragraph" />
 <div class="descripcion">
 	<p>
 		Me presento con ustedes, mi nombre es Tomás Broda, soy un estudiante de ingenieria en sistemas de informacion.
@@ -53,3 +61,14 @@
 		<button type="submit">Enviar</button>
 	</form>
 </div>
+<script>
+	document.getElementById('scroll-link').addEventListener('click', function (event) {
+		event.preventDefault(); // Evita el comportamiento predeterminado del enlace
+
+		// Obtiene el elemento al que queremos desplazarnos
+		var targetElement = document.getElementById('target-paragraph');
+
+		// Desplaza la página hacia el elemento objetivo
+		targetElement.scrollIntoView({ behavior: 'smooth' });
+	});
+</script>

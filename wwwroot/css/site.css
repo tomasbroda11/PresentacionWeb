@@ -22,36 +22,33 @@ body {
 }
 
 .div-ppal {
-    /*background-color: #808080; */
-    background-image: url(../fotoDiv.png) ;
-    background-size: cover; 
-    background-position: center;
+    background-color: #4C5454;
     padding: 150px 100px 150px 100px;
     border-radius: 25px;
     font-size: 20px;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
-.div-ppal h2 {
-        color: darkorange;
+    .div-ppal h2 {
+        color: #1EA896;
         font-size: 47px;
         font-family: Dubai;
-}
+    }
 .div-ppal p{
-    color: black;
+    color: white;
     
 }
 
-.div-ppal button {
-    background-color: darkorange;
-    color: white;
-    border-radius: 18px;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    padding: 1px 20px;
-    margin-right: auto;
-}
+    .div-ppal button {
+        background-color: #FF715B;
+        color: white;
+        border-radius: 18px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 1px 20px;
+        margin-right: auto;
+    }
 
 .div-ppal button:hover {
     color: black;
@@ -61,11 +58,14 @@ body {
     font-size: 21px;
     font-family: Rockwell ;
 }
-
+.link-normal-div{
+    text-align:center;
+}
 .link-normal {
-    text-decoration: none; /* Quita el subrayado predeterminado */
-    color: inherit; /* Hereda el color del texto del elemento padre */
-    cursor: pointer; /* Cambia el cursor a su estilo predeterminado */
+    text-decoration: none; 
+    color: inherit;
+    cursor: pointer; 
+    font-size: 30px;
 }
     .link-normal:hover {
         color: darkorange;
